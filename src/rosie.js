@@ -53,4 +53,4 @@ Factory.attributes = function(name, attrs) {
   return this.factories[name].attributes(attrs);
 };
 
-exports.Factory = Factory;
+exports = Factory;
